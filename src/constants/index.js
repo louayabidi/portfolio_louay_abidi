@@ -129,6 +129,7 @@ const experiences = [
       "Developed admin dashboard with analytics for business intelligence (revenue, popular routes, peak times).",
       "Reduced booking processing time by 65% through optimized workflows.",
     ],
+    source_code_link: "https://github.com/louayabidi/projetstage_devops.git",
   },
   {
     title: "Full-Stack Developer Intern",
@@ -142,6 +143,7 @@ const experiences = [
       "Tech: React, Django, Three.js, REST APIs, PostgreSQL, Docker.",
       "Impact: System adopted university-wide for main and retake sessions.",
     ],
+    source_code_link: "https://github.com/yourusername/esplan-project",
   },
   {
     title: "Angular Developer",
@@ -154,6 +156,7 @@ const experiences = [
       "Implemented JWT authentication and CRUD operations for 1000+ listings.",
       "Result: 4.8/5 user rating for UI/UX in beta testing.",
     ],
+    source_code_link: "https://github.com/louayabidi/Twin-Angular.git",
   },
   {
     title: "Administrative Assistant",
@@ -165,33 +168,25 @@ const experiences = [
       "Managed 50+ daily student/parent inquiries about academic programs.",
       "Streamlined information delivery processes reducing response time by 30%.",
     ],
+    source_code_link: null,
   },
 ];
 
-const testimonials = [
+const lessonsLearned = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Louay proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    title: "Technical Expertise",
+    description:
+      "Over the years, I have mastered a wide range of programming languages and frameworks, including JavaScript, TypeScript, React, Angular, Node.js, PHP, Python, C++, and JavaFX. I’ve worked with diverse databases like MongoDB, MySQL, PostgreSQL, and SQLite, building robust and scalable systems. My experience with DevOps practices, including CI/CD pipelines and Docker, has taught me to streamline development and deployment processes. I’ve learned to ensure code quality through rigorous testing methodologies and to transform conceptual diagrams into functional, real-world applications using tools like Figma and UML.",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Louay does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    title: "Teamwork and Collaboration",
+    description:
+      "For the past four years, I’ve worked daily in collaborative team environments, honing my ability to communicate effectively, share knowledge, and contribute to collective goals. Whether pair programming, conducting code reviews, or coordinating across departments, I’ve learned the importance of clear communication and mutual respect in achieving project success. These experiences have taught me to adapt to diverse team dynamics and leverage collective strengths to deliver high-quality solutions.",
   },
   {
-    testimonial:
-      "After Louay optimized our website, our traffic increased by 50%. We can't thank him enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    title: "Problem-Solving Mindset",
+    description:
+      "Through tackling complex challenges in various projects, I’ve developed a resilient problem-solving mindset. I’ve learned that every problem, no matter how daunting, has a solution waiting to be discovered. This approach has driven me to break down issues systematically, explore creative solutions, and iterate until the best outcome is achieved. From debugging intricate code to optimizing workflows, my experience has reinforced the belief that persistence and innovation can overcome any obstacle.",
   },
 ];
 
@@ -231,7 +226,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/orgs/Vhagar-4TWIN1/repositories", // Update with your link
+    source_code_link: "https://github.com/orgs/Vhagar-4TWIN1/repositories",
   },
   {
     name: "Sports Management System",
@@ -272,7 +267,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/goal-getters-3A6", // Update with your link
+    source_code_link: "https://github.com/goal-getters-3A6",
   },
   {
     name: "Share And Care - Embedded System",
@@ -297,7 +292,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/MayssaHakimi/Projet_Share_and_Care.git", // Update with your link
+    source_code_link: "https://github.com/MayssaHakimi/Projet_Share_and_Care.git",
   },
   {
     name: "University Microservices Platform",
@@ -326,7 +321,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/orgs/MicroService-Vghar-4TWIN1/repositories", // Update with your link
+    source_code_link: "https://github.com/orgs/MicroService-Vghar-4TWIN1/repositories",
   },
   {
     name: "Mental Health Predictor",
@@ -355,23 +350,25 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/MeriemBoukraa/MachineLearning-", // Update with your link
+    source_code_link: "https://github.com/MeriemBoukraa/MachineLearning-",
   },
-  {name: "2D Game in C",
-description:
-"Developed a 2D game using C programming language on Linux platform. Implemented game mechanics, graphics rendering, and user input handling.",
-tags: [
-{
-name: "c",
-color: "blue-text-gradient",
-},
-{
-name: "linux",
-color: "green-text-gradient",
-},
-],
-image: tripguide,
-},
+  {
+    name: "2D Game in C",
+    description:
+      "Developed a 2D game using C programming language on Linux platform. Implemented game mechanics, graphics rendering, and user input handling.",
+    tags: [
+      {
+        name: "c",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "linux",
+        color: "green-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/yourusername/2d-game-c",
+  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, lessonsLearned, projects };
