@@ -47,10 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-      I am a second-year computer engineering student with a
-       passion for development. I am currently seeking an online 
-       job to support myself financially while continuing my studies 
-       and to gain more practical experience in the field.
+      Motivated and versatile Full-Stack Developer with hands-on experience in MERN, Django,
+ and DevOps, specialized in building AI-powered platforms, scalable cloud applications,
+ and real-time systems. Experienced in leading projects, delivering optimized workflows,
+ and contributing to impactful university and startup solutions. Actively seeking a software
+ engineering internship to apply technical expertise and continue learning
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
