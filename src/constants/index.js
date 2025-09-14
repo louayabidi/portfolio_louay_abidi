@@ -122,12 +122,12 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2024 - Present",
     points: [
-      "Developed a MERN stack platform connecting boat owners with travelers, featuring real-time GPS tracking and online payments.",
+    "Developed a MERN stack platform connecting boat owners with travelers, featuring real-time GPS tracking and online payments.",
       "Implemented interactive map functionality using Mapbox/Leaflet with live vessel tracking and route visualization.",
-      "Integrated Stripe/PayPal payment gateway handling 500+ monthly transactions with 99.8% success rate.",
       "Designed secure booking system with JWT authentication and end-to-end encrypted communications.",
       "Developed admin dashboard with analytics for business intelligence (revenue, popular routes, peak times).",
       "Reduced booking processing time by 65% through optimized workflows.",
+      "Implemented a robust CI/CD pipeline using GitHub Actions, automating build, test, and deployment processes; conducted extensive automated testing for SQL injection, code injection, authentication vulnerabilities, and sensitive data handling, ensuring compliance with security standards, though the process was time-intensive due to comprehensive test coverage."
     ],
     source_code_link: "https://github.com/louayabidi/projetstage_devops.git",
   },
