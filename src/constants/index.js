@@ -20,6 +20,7 @@ import {
   tesla,
   shopify,
   carrent,
+  projet,
   jobit,
   tripguide,
   threejs,
@@ -35,9 +36,19 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "Works",
+    title: "Projects",
+  },
+  {
+    id: "LessonsLearned",
+    title: "Lessons",
+  },
+
+  {
     id: "contact",
     title: "Contact",
   },
+  
 ];
 
 const services = [
@@ -225,7 +236,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
+    image: projet,
     source_code_link: "https://github.com/orgs/Vhagar-4TWIN1/repositories",
   },
   {
@@ -266,7 +277,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: jobit,
+    image: projet,
     source_code_link: "https://github.com/goal-getters-3A6",
   },
   {
@@ -291,7 +302,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
+    image: projet,
     source_code_link: "https://github.com/MayssaHakimi/Projet_Share_and_Care.git",
   },
   {
@@ -320,7 +331,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: carrent,
+    image: projet,
     source_code_link: "https://github.com/orgs/MicroService-Vghar-4TWIN1/repositories",
   },
   {
@@ -349,7 +360,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: jobit,
+    image: projet,
     source_code_link: "https://github.com/MeriemBoukraa/MachineLearning-",
   },
   {
@@ -366,7 +377,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: tripguide,
+    image: projet,
     source_code_link: "https://github.com/yourusername/2d-game-c",
   },
 ];
